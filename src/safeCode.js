@@ -9,8 +9,6 @@ import Button from '@mui/material/Button';
 import './App.css'
 import { Typography } from '@mui/material';
 
-import Win from './winner.js'
-
 function Squares({ value, onSquareClicked }) {
   return (
     <button
