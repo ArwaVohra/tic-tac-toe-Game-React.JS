@@ -1,4 +1,168 @@
-.App {
+/* .bgImage{
+  
+	background-size: cover;
+  
+    min-width: 100%;
+    max-height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.textOnImg{
+  background-color:rgb(235, 164, 93);
+
+  box-shadow: 10px 5px 10px 0.54px peru;
+  position: absolute;
+bottom: 305px;
+left: 105px;
+} */
+
+
+
+.Mainbody{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.bodyy{
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.bodyy2{
+  background-color: #282c34;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size:52px;
+  color : '#2979ff';
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  /* background:"#282c34" !important; */
+  /* box-shadow:  #999; */
+  box-shadow: 0px 5px 10px 0px rgba(101, 76, 900, 0.486);
+  background-color: 'black'!important ;
+  border: 1px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 125px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 115px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+  background-color:deeppink;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +199,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
